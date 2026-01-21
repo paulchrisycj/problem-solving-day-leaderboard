@@ -139,11 +139,24 @@ export function ScoreEntryForm() {
               <FormLabel>Score (0-15)</FormLabel>
               <FormControl>
                 <Input
-                  type="number"
-                  min={0}
-                  max={15}
-                  {...field}
-                  onChange={(e) => field.onChange(parseInt(e.target.value) || 0)}
+                  type="text"
+                  inputMode="numeric"
+                  pattern="[0-9]*"
+                  maxLength={2}
+                  value={field.value.toString()}
+                  onBlur={field.onBlur}
+                  name={field.name}
+                  ref={field.ref}
+                  onFocus={(e) => e.target.select()}
+                  onChange={(e) => {
+                    const value = e.target.value.replace(/[^0-9]/g, '');
+                    if (value === '') {
+                      field.onChange(0);
+                      return;
+                    }
+                    const num = parseInt(value, 10);
+                    field.onChange(Math.min(15, Math.max(0, num)));
+                  }}
                 />
               </FormControl>
               <FormMessage />
