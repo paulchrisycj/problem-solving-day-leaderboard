@@ -113,7 +113,7 @@ export function ScoreEntryForm() {
                 </FormControl>
                 <SelectContent>
                   {availableParticipants.length === 0 ? (
-                    <SelectItem value="" disabled>
+                    <SelectItem value="No participants available" disabled>
                       No participants available
                     </SelectItem>
                   ) : (
