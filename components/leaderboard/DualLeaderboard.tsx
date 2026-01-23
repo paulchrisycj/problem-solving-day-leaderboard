@@ -20,11 +20,13 @@ export function DualLeaderboard() {
         title="Individual Challenge"
         entries={individuals}
         showMembers={false}
+        link={process.env.NEXT_PUBLIC_INDIVIDUAL_LINK}
       />
       <LeaderboardPanel
         title="Group Challenge"
         entries={groups}
         showMembers={true}
+        link={process.env.NEXT_PUBLIC_GROUP_LINK}
       />
     </div>
   );

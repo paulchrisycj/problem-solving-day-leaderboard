@@ -17,6 +17,7 @@ interface LeaderboardPanelProps {
   entries: LeaderboardEntry[];
   showMembers?: boolean;
   className?: string;
+  link?: string;
 }
 
 export function LeaderboardPanel({
@@ -24,11 +25,15 @@ export function LeaderboardPanel({
   entries,
   showMembers = true,
   className,
+  link,
 }: LeaderboardPanelProps) {
   return (
     <Card className={className}>
       <CardHeader className="pb-3">
-        <CardTitle className="text-xl">{title}</CardTitle>
+        <CardTitle className="text-xl">
+          {title}
+          {link && <span className="ml-2 text-sm text-muted-foreground">{link}</span>}
+        </CardTitle>
       </CardHeader>
       <CardContent className="p-0">
         <ScrollArea className="h-[calc(100vh-280px)]">
