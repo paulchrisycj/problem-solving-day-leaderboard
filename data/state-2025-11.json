@@ -1,0 +1,247 @@
+{
+  "individuals": [
+    {
+      "id": "9dad85b9-796c-465e-ab87-86c1706f7948",
+      "type": "individual",
+      "name": "Ivan Gan",
+      "score": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-01-23T14:37:35.741+08:00",
+      "createdAt": "2026-01-23T13:57:10.717+08:00"
+    },
+    {
+      "id": "0e58b446-d560-4944-8f6d-4d43c62a1fe0",
+      "type": "individual",
+      "name": "Edward Kou",
+      "score": null,
+      "attempts": 0,
+      "bestScoreTimestamp": null,
+      "createdAt": "2026-01-23T13:57:41.563+08:00"
+    },
+    {
+      "id": "3931659d-2d34-49cf-9fb7-64266b31a5ee",
+      "type": "individual",
+      "name": "Chua Hang Jie",
+      "score": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-01-23T16:26:38.226+08:00",
+      "createdAt": "2026-01-23T13:57:54.235+08:00"
+    },
+    {
+      "id": "61b908fe-07ad-4f66-82c0-51bd083d8d28",
+      "type": "individual",
+      "name": "Joash",
+      "score": 5,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-01-23T14:49:08.223+08:00",
+      "createdAt": "2026-01-23T13:58:07.028+08:00"
+    },
+    {
+      "id": "d28942c8-5603-4552-8f14-1923337d3a60",
+      "type": "individual",
+      "name": "Chin Kang Jie",
+      "score": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-01-23T15:58:54.746+08:00",
+      "createdAt": "2026-01-23T13:58:16.623+08:00"
+    },
+    {
+      "id": "c78f6f64-32c3-4642-860f-8d13fa5f691e",
+      "type": "individual",
+      "name": "Chua Seong Jun",
+      "score": 1,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-01-23T15:28:38.727+08:00",
+      "createdAt": "2026-01-23T13:58:40.530+08:00"
+    },
+    {
+      "id": "919edff9-3fdc-4594-a9e9-def037d4863f",
+      "type": "individual",
+      "name": "Ramdzuanny",
+      "score": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-01-23T15:35:37.262+08:00",
+      "createdAt": "2026-01-23T14:20:00.316+08:00"
+    },
+    {
+      "id": "553a5708-3915-4589-b5cc-0d492400a04f",
+      "type": "individual",
+      "name": "Jia Li",
+      "score": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-01-23T15:45:27.920+08:00",
+      "createdAt": "2026-01-23T15:15:59.033+08:00"
+    },
+    {
+      "id": "4f3ccf8f-75e3-4814-bcd6-aba51afe02c4",
+      "type": "individual",
+      "name": "Ainul Mardhiah",
+      "score": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-01-23T15:49:16.551+08:00",
+      "createdAt": "2026-01-23T15:16:16.244+08:00"
+    },
+    {
+      "id": "7b71b5cb-d73e-4a8a-9eb2-3cc70362b038",
+      "type": "individual",
+      "name": "Amenda Darwisyah",
+      "score": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-01-23T16:02:31.065+08:00",
+      "createdAt": "2026-01-23T15:16:25.523+08:00"
+    },
+    {
+      "id": "ad36439c-7a2a-40b5-9bdd-605c9a0f4533",
+      "type": "individual",
+      "name": "Airis Alesya",
+      "score": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-01-23T16:00:21.676+08:00",
+      "createdAt": "2026-01-23T15:16:39.676+08:00"
+    },
+    {
+      "id": "a891b9b6-1ccb-4fe8-84db-e24195646588",
+      "type": "individual",
+      "name": "Tengku Hamza",
+      "score": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-01-23T15:28:19.482+08:00",
+      "createdAt": "2026-01-23T15:16:44.481+08:00"
+    },
+    {
+      "id": "df406a36-f1c3-4c0e-a2f3-cc2b75dbb69a",
+      "type": "individual",
+      "name": "Anas",
+      "score": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-01-23T15:56:35.098+08:00",
+      "createdAt": "2026-01-23T15:32:22.989+08:00"
+    },
+    {
+      "id": "29646d8b-757b-455f-8999-e0569d7cf69d",
+      "type": "individual",
+      "name": "Aisy",
+      "score": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-01-23T15:56:28.279+08:00",
+      "createdAt": "2026-01-23T15:32:31.925+08:00"
+    },
+    {
+      "id": "4f28a5c6-e2c1-4c56-98c8-014066f1735e",
+      "type": "individual",
+      "name": "Irfan",
+      "score": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-01-23T15:55:19.427+08:00",
+      "createdAt": "2026-01-23T15:32:36.887+08:00"
+    },
+    {
+      "id": "db0529a3-3e16-4206-b67c-5dbace280ee8",
+      "type": "individual",
+      "name": "Danish",
+      "score": null,
+      "attempts": 0,
+      "bestScoreTimestamp": null,
+      "createdAt": "2026-01-23T15:50:01.110+08:00"
+    },
+    {
+      "id": "d3323745-1471-4da6-813d-6156d857207e",
+      "type": "individual",
+      "name": "Kesh",
+      "score": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-01-23T16:29:32.630+08:00",
+      "createdAt": "2026-01-23T15:50:26.818+08:00"
+    },
+    {
+      "id": "6652f948-4b04-4e9c-9fb8-f93fcf550bab",
+      "type": "individual",
+      "name": "Jeremy",
+      "score": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-01-23T17:37:17.111+08:00",
+      "createdAt": "2026-01-23T17:19:13.062+08:00"
+    },
+    {
+      "id": "aef57dd5-8d6a-461a-9be0-d070b15cfbe2",
+      "type": "individual",
+      "name": "Ee Szen",
+      "score": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-01-23T17:37:23.252+08:00",
+      "createdAt": "2026-01-23T17:36:56.546+08:00"
+    }
+  ],
+  "groups": [
+    {
+      "id": "ed1f049d-813e-4852-8cc0-67414abc1b98",
+      "type": "group",
+      "name": "Captain Aisy",
+      "members": [
+        "Aisy",
+        "Irfan",
+        "Ramdzuanny"
+      ],
+      "score": 4,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-01-23T16:39:16.485+08:00",
+      "createdAt": "2026-01-23T16:03:12.240+08:00"
+    },
+    {
+      "id": "7820e983-2a34-4c6a-bb6c-a2b059c1a069",
+      "type": "group",
+      "name": "GG1",
+      "members": [
+        "Jia Li",
+        "Ainul"
+      ],
+      "score": 4,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-01-23T16:38:49.021+08:00",
+      "createdAt": "2026-01-23T16:38:19.370+08:00"
+    },
+    {
+      "id": "d09fe74c-e184-499f-99cd-1fe39068f05e",
+      "type": "group",
+      "name": "GG2",
+      "members": [
+        "Airis",
+        "Amenda"
+      ],
+      "score": 4,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-01-23T16:38:54.406+08:00",
+      "createdAt": "2026-01-23T16:38:31.500+08:00"
+    },
+    {
+      "id": "3fdd0f64-bbaa-44cd-b3b4-876cb8524248",
+      "type": "group",
+      "name": "HamzaHangjie",
+      "members": [
+        "Chua Hang Jie",
+        "Hamza"
+      ],
+      "score": 4,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-01-23T17:45:08.675+08:00",
+      "createdAt": "2026-01-23T17:25:29.723+08:00"
+    },
+    {
+      "id": "23644320-caa1-4045-bf15-ad713a8cdeca",
+      "type": "group",
+      "name": "KangjieDanish",
+      "members": [
+        "Chin Kang Jie",
+        "Danish"
+      ],
+      "score": 4,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-01-23T17:43:53.251+08:00",
+      "createdAt": "2026-01-23T17:26:19.879+08:00"
+    }
+  ],
+  "timer": {
+    "endTime": null,
+    "isRunning": false
+  }
+}
