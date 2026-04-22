@@ -25,6 +25,33 @@ import { useAppContext } from '@/context/AppContext';
 import { scoreSchema, type ScoreInput } from '@/lib/validation';
 import { toast } from 'sonner';
 
+const INDIVIDUAL_TOTAL_CASES = parseInt(
+  process.env.NEXT_PUBLIC_INDVIDUAL_TEST_CASES || '40',
+  10
+);
+const GROUP_TOTAL_CASES = parseInt(
+  process.env.NEXT_PUBLIC_GROUP_TEST_CASES || '15',
+  10
+);
+const INDIVIDUAL_TOTAL_SCORE = parseFloat(
+  process.env.NEXT_PUBLIC_INDIVIDUAL_TOTAL_SCORE || '10'
+);
+const GROUP_TOTAL_SCORE = parseFloat(
+  process.env.NEXT_PUBLIC_GROUP_TOTAL_SCORE || '15'
+);
+
+function computeScore(
+  testCasesPassed: number,
+  participantType: 'individual' | 'group'
+): number {
+  const totalCases =
+    participantType === 'individual' ? INDIVIDUAL_TOTAL_CASES : GROUP_TOTAL_CASES;
+  const totalScore =
+    participantType === 'individual' ? INDIVIDUAL_TOTAL_SCORE : GROUP_TOTAL_SCORE;
+  if (totalCases === 0) return 0;
+  return parseFloat(((testCasesPassed / totalCases) * totalScore).toFixed(4));
+}
+
 export function ScoreEntryForm() {
   const { submitScore } = useSocket();
   const { state } = useAppContext();
@@ -34,16 +61,21 @@ export function ScoreEntryForm() {
     defaultValues: {
       participantId: '',
       participantType: 'individual',
+      testCasesPassed: 0,
       score: 0,
     },
   });
 
   const selectedType = form.watch('participantType');
+  const testCasesPassed = form.watch('testCasesPassed');
   const participants =
     selectedType === 'individual' ? state.individuals : state.groups;
 
-  // Filter out participants who have already used both attempts
   const availableParticipants = participants.filter((p) => p.attempts < 2);
+
+  const totalCases =
+    selectedType === 'individual' ? INDIVIDUAL_TOTAL_CASES : GROUP_TOTAL_CASES;
+  const previewScore = computeScore(testCasesPassed, selectedType);
 
   const onSubmit = (data: ScoreInput) => {
     const participant = participants.find((p) => p.id === data.participantId);
@@ -57,13 +89,14 @@ export function ScoreEntryForm() {
       return;
     }
 
-    submitScore(data.participantId, data.participantType, data.score);
+    submitScore(data.participantId, data.participantType, data.testCasesPassed, data.score);
     toast.success(
       `Score ${data.score} submitted for "${participant.name}" (Attempt ${participant.attempts + 1}/2)`
     );
     form.reset({
       participantId: '',
       participantType: selectedType,
+      testCasesPassed: 0,
       score: 0,
     });
   };
@@ -81,6 +114,8 @@ export function ScoreEntryForm() {
                 onValueChange={(value) => {
                   field.onChange(value);
                   form.setValue('participantId', '');
+                  form.setValue('testCasesPassed', 0);
+                  form.setValue('score', 0);
                 }}
                 value={field.value}
               >
@@ -133,16 +168,16 @@ export function ScoreEntryForm() {
 
         <FormField
           control={form.control}
-          name="score"
+          name="testCasesPassed"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Score (0-15)</FormLabel>
+              <FormLabel>Test Cases Passed (out of {totalCases})</FormLabel>
               <FormControl>
                 <Input
                   type="text"
                   inputMode="numeric"
                   pattern="[0-9]*"
-                  maxLength={2}
+                  maxLength={3}
                   value={field.value.toString()}
                   onBlur={field.onBlur}
                   name={field.name}
@@ -152,10 +187,12 @@ export function ScoreEntryForm() {
                     const value = e.target.value.replace(/[^0-9]/g, '');
                     if (value === '') {
                       field.onChange(0);
+                      form.setValue('score', 0);
                       return;
                     }
-                    const num = parseInt(value, 10);
-                    field.onChange(Math.min(15, Math.max(0, num)));
+                    const num = Math.min(totalCases, Math.max(0, parseInt(value, 10)));
+                    field.onChange(num);
+                    form.setValue('score', computeScore(num, selectedType));
                   }}
                 />
               </FormControl>
@@ -163,6 +200,11 @@ export function ScoreEntryForm() {
             </FormItem>
           )}
         />
+
+        <div className="rounded-md border bg-muted/50 px-3 py-2 text-sm">
+          <span className="text-muted-foreground">Calculated score: </span>
+          <span className="font-semibold font-mono">{previewScore}</span>
+        </div>
 
         <Button
           type="submit"

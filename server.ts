@@ -214,10 +214,30 @@ app.prepare().then(() => {
           return;
         }
 
+        const { participantId, participantType, testCasesPassed } = validation.data;
+
+        const totalCases = participantType === 'individual'
+          ? parseInt(process.env.NEXT_PUBLIC_INDVIDUAL_TEST_CASES || '40', 10)
+          : parseInt(process.env.NEXT_PUBLIC_GROUP_TEST_CASES || '15', 10);
+
+        const totalScore = participantType === 'individual'
+          ? parseFloat(process.env.NEXT_PUBLIC_INDIVIDUAL_TOTAL_SCORE || '10')
+          : parseFloat(process.env.NEXT_PUBLIC_GROUP_TOTAL_SCORE || '15');
+
+        if (testCasesPassed > totalCases) {
+          socket.emit('error', { message: `Test cases passed cannot exceed ${totalCases}` });
+          return;
+        }
+
+        const score = totalCases > 0
+          ? parseFloat(((testCasesPassed / totalCases) * totalScore).toFixed(4))
+          : 0;
+
         const result = await submitScore(
-          validation.data.participantId,
-          validation.data.participantType,
-          validation.data.score
+          participantId,
+          participantType,
+          score,
+          testCasesPassed
         );
 
         if (!result.success) {

@@ -102,6 +102,7 @@ export async function createIndividual(name: string): Promise<Individual> {
     type: 'individual',
     name: name.trim(),
     score: null,
+    testCasesPassed: null,
     attempts: 0,
     bestScoreTimestamp: null,
     createdAt: now,
@@ -129,6 +130,7 @@ export async function createGroup(
     name: name.trim(),
     members: members.map((m) => m.trim()),
     score: null,
+    testCasesPassed: null,
     attempts: 0,
     bestScoreTimestamp: null,
     createdAt: now,
@@ -213,15 +215,11 @@ export async function deleteParticipant(
 export async function submitScore(
   id: string,
   participantType: 'individual' | 'group',
-  score: number
+  score: number,
+  testCasesPassed: number
 ): Promise<{ success: boolean; participant?: Participant; error?: string }> {
   const state = await loadState();
   const now = getCurrentGMT8ISO();
-
-  // Validate score
-  if (score < 0 || score > 15 || !Number.isInteger(score)) {
-    return { success: false, error: 'Score must be an integer between 0 and 15' };
-  }
 
   let participant: Individual | Group | undefined;
   let index: number;
@@ -254,6 +252,7 @@ export async function submitScore(
 
   if (shouldUpdateScore) {
     participant.score = score;
+    participant.testCasesPassed = testCasesPassed;
     participant.bestScoreTimestamp = now;
   }
 

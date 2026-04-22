@@ -18,6 +18,7 @@ interface LeaderboardPanelProps {
   showMembers?: boolean;
   className?: string;
   link?: string;
+  totalTestCases?: number;
 }
 
 export function LeaderboardPanel({
@@ -26,6 +27,7 @@ export function LeaderboardPanel({
   showMembers = true,
   className,
   link,
+  totalTestCases,
 }: LeaderboardPanelProps) {
   return (
     <Card className={className}>
@@ -42,6 +44,7 @@ export function LeaderboardPanel({
               <TableRow>
                 <TableHead className="w-16 text-center">Rank</TableHead>
                 <TableHead>Name</TableHead>
+                <TableHead className="w-24 text-center">Test Cases</TableHead>
                 <TableHead className="w-20 text-center">Score</TableHead>
                 <TableHead className="w-24 text-center">Attempts</TableHead>
               </TableRow>
@@ -49,7 +52,7 @@ export function LeaderboardPanel({
             <TableBody>
               {entries.length === 0 ? (
                 <TableRow>
-                  <td colSpan={4} className="text-center py-8 text-muted-foreground">
+                  <td colSpan={5} className="text-center py-8 text-muted-foreground">
                     No participants yet
                   </td>
                 </TableRow>
@@ -59,6 +62,7 @@ export function LeaderboardPanel({
                     key={entry.id}
                     entry={entry}
                     showMembers={showMembers}
+                    totalTestCases={totalTestCases}
                   />
                 ))
               )}

@@ -3,6 +3,7 @@ export interface BaseParticipant {
   id: string;
   name: string;
   score: number | null;
+  testCasesPassed: number | null;
   attempts: number;
   bestScoreTimestamp: string | null; // ISO 8601 string in GMT+8
   createdAt: string; // ISO 8601 string in GMT+8
@@ -56,6 +57,7 @@ export interface ScoreFormData {
   participantId: string;
   participantType: 'individual' | 'group';
   score: number;
+  testCasesPassed: number;
 }
 
 export interface TimerFormData {

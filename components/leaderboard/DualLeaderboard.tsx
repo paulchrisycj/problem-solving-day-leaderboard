@@ -21,12 +21,14 @@ export function DualLeaderboard() {
         entries={individuals}
         showMembers={false}
         link={process.env.NEXT_PUBLIC_INDIVIDUAL_LINK}
+        totalTestCases={parseInt(process.env.NEXT_PUBLIC_INDVIDUAL_TEST_CASES || '40', 10)}
       />
       <LeaderboardPanel
         title="Group Challenge"
         entries={groups}
         showMembers={true}
         link={process.env.NEXT_PUBLIC_GROUP_LINK}
+        totalTestCases={parseInt(process.env.NEXT_PUBLIC_GROUP_TEST_CASES || '15', 10)}
       />
     </div>
   );

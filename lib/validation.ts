@@ -35,11 +35,13 @@ export type GroupInput = z.infer<typeof groupSchema>;
 export const scoreSchema = z.object({
   participantId: z.string().min(1, 'Participant is required'),
   participantType: z.enum(['individual', 'group']),
+  testCasesPassed: z
+    .number()
+    .int('Test cases passed must be a whole number')
+    .min(0, 'Test cases passed must be at least 0'),
   score: z
     .number()
-    .int('Score must be a whole number')
-    .min(0, 'Score must be at least 0')
-    .max(15, 'Score must be at most 15'),
+    .min(0, 'Score must be at least 0'),
 });
 
 export type ScoreInput = z.infer<typeof scoreSchema>;

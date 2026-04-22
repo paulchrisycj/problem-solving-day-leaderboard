@@ -42,6 +42,7 @@ interface SocketContextType {
   submitScore: (
     participantId: string,
     participantType: 'individual' | 'group',
+    testCasesPassed: number,
     score: number
   ) => void;
   setTimerEndTime: (endTime: string) => void;
@@ -191,12 +192,14 @@ export function SocketProvider({ children }: { children: ReactNode }) {
     (
       participantId: string,
       participantType: 'individual' | 'group',
+      testCasesPassed: number,
       score: number
     ) => {
       if (!socket) return;
       socket.emit(SocketEvents.SCORE_SUBMIT, {
         participantId,
         participantType,
+        testCasesPassed,
         score,
       });
     },

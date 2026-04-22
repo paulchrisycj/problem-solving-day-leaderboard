@@ -10,19 +10,20 @@ import type { LeaderboardEntry } from '@/types';
 interface LeaderboardRowProps {
   entry: LeaderboardEntry;
   showMembers?: boolean;
+  totalTestCases?: number;
 }
 
-export function LeaderboardRow({ entry, showMembers = true }: LeaderboardRowProps) {
+export function LeaderboardRow({ entry, showMembers = true, totalTestCases }: LeaderboardRowProps) {
   const [isOpen, setIsOpen] = useState(false);
   const hasMembers = entry.type === 'group' && entry.members && entry.members.length > 0;
 
-  // Format attempts display
-  const attemptsDisplay = entry.score !== null
-    ? `${entry.attempts}/2`
-    : `${entry.attempts}/2`;
-
-  // Format score display
+  const attemptsDisplay = `${entry.attempts}/2`;
   const scoreDisplay = entry.score !== null ? entry.score : '-';
+  const testCasesDisplay = entry.testCasesPassed !== null && entry.testCasesPassed !== undefined
+    ? totalTestCases !== undefined
+      ? `${entry.testCasesPassed}/${totalTestCases}`
+      : `${entry.testCasesPassed}`
+    : '-';
 
   if (hasMembers && showMembers) {
     return (
@@ -53,6 +54,7 @@ export function LeaderboardRow({ entry, showMembers = true }: LeaderboardRowProp
               </span>
             </div>
           </TableCell>
+          <TableCell className="text-center font-mono text-muted-foreground">{testCasesDisplay}</TableCell>
           <TableCell className="text-center font-mono">{scoreDisplay}</TableCell>
           <TableCell className="text-center text-muted-foreground">
             {attemptsDisplay}
@@ -60,7 +62,7 @@ export function LeaderboardRow({ entry, showMembers = true }: LeaderboardRowProp
         </TableRow>
         {isOpen && (
           <TableRow className="bg-muted/30">
-            <TableCell colSpan={4} className="py-2 pl-12">
+            <TableCell colSpan={5} className="py-2 pl-12">
               <div className="text-sm text-muted-foreground">
                 <span className="font-medium">Members: </span>
                 {entry.members!.join(', ')}
@@ -86,6 +88,7 @@ export function LeaderboardRow({ entry, showMembers = true }: LeaderboardRowProp
       <TableCell>
         <span className="font-medium">{entry.name}</span>
       </TableCell>
+      <TableCell className="text-center font-mono text-muted-foreground">{testCasesDisplay}</TableCell>
       <TableCell className="text-center font-mono">{scoreDisplay}</TableCell>
       <TableCell className="text-center text-muted-foreground">
         {attemptsDisplay}
