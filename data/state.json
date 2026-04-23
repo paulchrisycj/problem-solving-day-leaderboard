@@ -1,8 +1,290 @@
 {
-  "individuals": [],
-  "groups": [],
+  "individuals": [
+    {
+      "id": "4178ef4f-ba3d-4551-846e-d970f5119341",
+      "type": "individual",
+      "name": "Ong Ming Zhi",
+      "score": 4.25,
+      "testCasesPassed": 17,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-04-23T16:29:09.915+08:00",
+      "createdAt": "2026-04-23T13:34:05.523+08:00"
+    },
+    {
+      "id": "211d901f-d23a-4a5c-b27f-093e5528c5c4",
+      "type": "individual",
+      "name": "Alicia",
+      "score": 5.25,
+      "testCasesPassed": 21,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-04-23T16:29:18.766+08:00",
+      "createdAt": "2026-04-23T13:34:11.431+08:00"
+    },
+    {
+      "id": "091da168-f47f-447f-9abc-820ec2124af6",
+      "type": "individual",
+      "name": "Ping Jin",
+      "score": 3.75,
+      "testCasesPassed": 15,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-04-23T15:17:16.336+08:00",
+      "createdAt": "2026-04-23T13:34:14.393+08:00"
+    },
+    {
+      "id": "ccb95c52-e533-4423-aed0-2f2a1c1c30ee",
+      "type": "individual",
+      "name": "Wen Yao",
+      "score": 6.25,
+      "testCasesPassed": 25,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-04-23T16:03:41.578+08:00",
+      "createdAt": "2026-04-23T13:34:19.303+08:00"
+    },
+    {
+      "id": "aad448a1-8ba8-4b00-aded-075ab039282e",
+      "type": "individual",
+      "name": "Shi Min",
+      "score": 4.5,
+      "testCasesPassed": 18,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-04-23T15:18:57.061+08:00",
+      "createdAt": "2026-04-23T13:34:25.020+08:00"
+    },
+    {
+      "id": "ec8085c6-144d-45ae-b3c5-7ab83132141e",
+      "type": "individual",
+      "name": "Phin Cheng",
+      "score": 5.25,
+      "testCasesPassed": 21,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-04-23T16:02:09.543+08:00",
+      "createdAt": "2026-04-23T13:34:32.292+08:00"
+    },
+    {
+      "id": "320aee4e-32dc-4293-880e-a0b1cb72afb4",
+      "type": "individual",
+      "name": "Han Chuan",
+      "score": 5,
+      "testCasesPassed": 20,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-04-23T15:19:22.990+08:00",
+      "createdAt": "2026-04-23T13:34:40.019+08:00"
+    },
+    {
+      "id": "d1b17a97-1b3d-4cce-8b3a-853d234a19fc",
+      "type": "individual",
+      "name": "Arthur",
+      "score": 5.75,
+      "testCasesPassed": 23,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-04-23T16:02:48.082+08:00",
+      "createdAt": "2026-04-23T13:34:43.578+08:00"
+    },
+    {
+      "id": "254516af-f7f3-4cfd-8395-bb6ef26778b4",
+      "type": "individual",
+      "name": "Ivan",
+      "score": 2.75,
+      "testCasesPassed": 11,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-04-23T16:04:20.566+08:00",
+      "createdAt": "2026-04-23T13:34:48.984+08:00"
+    },
+    {
+      "id": "e4bd02ac-035a-46e6-a745-a06f4b5cc9d6",
+      "type": "individual",
+      "name": "Jeslyn",
+      "score": 4.25,
+      "testCasesPassed": 17,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-04-23T16:27:40.511+08:00",
+      "createdAt": "2026-04-23T13:35:00.042+08:00"
+    },
+    {
+      "id": "fa360cd2-323d-40a9-9acf-aac424c28623",
+      "type": "individual",
+      "name": "Sky",
+      "score": 2.75,
+      "testCasesPassed": 11,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-04-23T16:03:30.851+08:00",
+      "createdAt": "2026-04-23T13:35:15.515+08:00"
+    },
+    {
+      "id": "cb17614e-0177-4358-809b-863aceb88b32",
+      "type": "individual",
+      "name": "Ian",
+      "score": 5.25,
+      "testCasesPassed": 21,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-04-23T15:19:12.607+08:00",
+      "createdAt": "2026-04-23T13:35:18.200+08:00"
+    },
+    {
+      "id": "11e4d295-0adb-4c7e-a9bf-49efc339813e",
+      "type": "individual",
+      "name": "Yi Sheng",
+      "score": 5.25,
+      "testCasesPassed": 21,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-04-23T15:17:23.783+08:00",
+      "createdAt": "2026-04-23T13:35:48.361+08:00"
+    },
+    {
+      "id": "c2731932-e717-4104-8eb2-96c961695919",
+      "type": "individual",
+      "name": "Hang Jie",
+      "score": 5,
+      "testCasesPassed": 20,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-04-23T16:23:08.605+08:00",
+      "createdAt": "2026-04-23T13:39:27.993+08:00"
+    },
+    {
+      "id": "b0957384-d3f4-4ef8-9e7d-6b134b809fb8",
+      "type": "individual",
+      "name": "Seong Jun",
+      "score": 8.25,
+      "testCasesPassed": 33,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-04-23T15:54:51.544+08:00",
+      "createdAt": "2026-04-23T13:39:37.488+08:00"
+    },
+    {
+      "id": "1001771b-5115-4678-a3f7-25c209c0911b",
+      "type": "individual",
+      "name": "Kang Jie",
+      "score": 10,
+      "testCasesPassed": 40,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-04-23T16:01:53.331+08:00",
+      "createdAt": "2026-04-23T16:01:48.186+08:00"
+    },
+    {
+      "id": "1f721265-9f7f-4315-9c66-493ccb0f4c22",
+      "type": "individual",
+      "name": "Nicholas",
+      "score": 8,
+      "testCasesPassed": 32,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-04-23T16:03:20.583+08:00",
+      "createdAt": "2026-04-23T16:03:16.200+08:00"
+    },
+    {
+      "id": "0523e35b-a8b4-413e-97e5-ccfdce99b9a4",
+      "type": "individual",
+      "name": "Alex",
+      "score": 10,
+      "testCasesPassed": 40,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-04-23T16:10:53.837+08:00",
+      "createdAt": "2026-04-23T16:10:47.688+08:00"
+    },
+    {
+      "id": "c4249c23-90ed-4bfa-8de6-1f023245fb9d",
+      "type": "individual",
+      "name": "Ze Yu",
+      "score": 8,
+      "testCasesPassed": 32,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-04-23T16:22:54.910+08:00",
+      "createdAt": "2026-04-23T16:22:48.418+08:00"
+    },
+    {
+      "id": "990a5635-26d1-42b7-8d81-b434c58faa1b",
+      "type": "individual",
+      "name": "Jeremy",
+      "score": 9.25,
+      "testCasesPassed": 37,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-04-23T16:30:01.703+08:00",
+      "createdAt": "2026-04-23T16:29:43.598+08:00"
+    },
+    {
+      "id": "6e608cfe-04cd-461f-960a-90aafae21a56",
+      "type": "individual",
+      "name": "Orient",
+      "score": 2.75,
+      "testCasesPassed": 11,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-04-23T17:27:52.348+08:00",
+      "createdAt": "2026-04-23T17:27:42.455+08:00"
+    },
+    {
+      "id": "1964e781-6c1f-456c-bd5b-3b0b3919e37b",
+      "type": "individual",
+      "name": "Joash",
+      "score": 2.75,
+      "testCasesPassed": 11,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-04-23T17:30:12.682+08:00",
+      "createdAt": "2026-04-23T17:29:58.265+08:00"
+    }
+  ],
+  "groups": [
+    {
+      "id": "b0951968-56ca-40f3-afae-582415b3572b",
+      "type": "group",
+      "name": "monster",
+      "members": [
+        "kang jie",
+        "Shen Yang",
+        "Alvin"
+      ],
+      "score": 13,
+      "testCasesPassed": 13,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-04-23T15:01:07.209+08:00",
+      "createdAt": "2026-04-23T13:36:34.100+08:00"
+    },
+    {
+      "id": "7f884a51-588c-4ad3-9b50-547fc754f293",
+      "type": "group",
+      "name": "NPC",
+      "members": [
+        "Peter",
+        "Joash",
+        "Orient"
+      ],
+      "score": 11,
+      "testCasesPassed": 11,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-04-23T14:52:07.974+08:00",
+      "createdAt": "2026-04-23T13:38:47.923+08:00"
+    },
+    {
+      "id": "ad93162c-ade7-4e28-8513-299dfc6a048b",
+      "type": "group",
+      "name": "Alicia",
+      "members": [
+        "Wen Yao",
+        "Nicholas",
+        "Ze Yu"
+      ],
+      "score": null,
+      "testCasesPassed": null,
+      "attempts": 0,
+      "bestScoreTimestamp": null,
+      "createdAt": "2026-04-23T15:02:34.866+08:00"
+    },
+    {
+      "id": "a2abb13e-af8b-4bc7-80d7-61fe9edb7c4c",
+      "type": "group",
+      "name": "Victim",
+      "members": [
+        "Ian",
+        "Alex",
+        "Hang Jie"
+      ],
+      "score": null,
+      "testCasesPassed": null,
+      "attempts": 0,
+      "bestScoreTimestamp": null,
+      "createdAt": "2026-04-23T17:18:17.751+08:00"
+    }
+  ],
   "timer": {
     "endTime": "2026-04-23T17:30:00.000+08:00",
-    "isRunning": false
+    "isRunning": true
   }
 }
