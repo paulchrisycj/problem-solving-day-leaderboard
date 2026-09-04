@@ -1,290 +1,538 @@
 {
   "individuals": [
     {
-      "id": "4178ef4f-ba3d-4551-846e-d970f5119341",
+      "id": "ffa8e0cf-d895-4424-8ee6-6e38add7b4f5",
       "type": "individual",
-      "name": "Ong Ming Zhi",
-      "score": 4.25,
-      "testCasesPassed": 17,
+      "name": "Alvin",
+      "score": 10,
+      "testCasesPassed": 10,
       "attempts": 1,
-      "bestScoreTimestamp": "2026-04-23T16:29:09.915+08:00",
-      "createdAt": "2026-04-23T13:34:05.523+08:00"
+      "bestScoreTimestamp": "2026-09-03T15:25:02.043+08:00",
+      "createdAt": "2026-09-03T13:41:29.103+08:00"
     },
     {
-      "id": "211d901f-d23a-4a5c-b27f-093e5528c5c4",
-      "type": "individual",
-      "name": "Alicia",
-      "score": 5.25,
-      "testCasesPassed": 21,
-      "attempts": 1,
-      "bestScoreTimestamp": "2026-04-23T16:29:18.766+08:00",
-      "createdAt": "2026-04-23T13:34:11.431+08:00"
-    },
-    {
-      "id": "091da168-f47f-447f-9abc-820ec2124af6",
-      "type": "individual",
-      "name": "Ping Jin",
-      "score": 3.75,
-      "testCasesPassed": 15,
-      "attempts": 1,
-      "bestScoreTimestamp": "2026-04-23T15:17:16.336+08:00",
-      "createdAt": "2026-04-23T13:34:14.393+08:00"
-    },
-    {
-      "id": "ccb95c52-e533-4423-aed0-2f2a1c1c30ee",
-      "type": "individual",
-      "name": "Wen Yao",
-      "score": 6.25,
-      "testCasesPassed": 25,
-      "attempts": 1,
-      "bestScoreTimestamp": "2026-04-23T16:03:41.578+08:00",
-      "createdAt": "2026-04-23T13:34:19.303+08:00"
-    },
-    {
-      "id": "aad448a1-8ba8-4b00-aded-075ab039282e",
-      "type": "individual",
-      "name": "Shi Min",
-      "score": 4.5,
-      "testCasesPassed": 18,
-      "attempts": 1,
-      "bestScoreTimestamp": "2026-04-23T15:18:57.061+08:00",
-      "createdAt": "2026-04-23T13:34:25.020+08:00"
-    },
-    {
-      "id": "ec8085c6-144d-45ae-b3c5-7ab83132141e",
-      "type": "individual",
-      "name": "Phin Cheng",
-      "score": 5.25,
-      "testCasesPassed": 21,
-      "attempts": 1,
-      "bestScoreTimestamp": "2026-04-23T16:02:09.543+08:00",
-      "createdAt": "2026-04-23T13:34:32.292+08:00"
-    },
-    {
-      "id": "320aee4e-32dc-4293-880e-a0b1cb72afb4",
-      "type": "individual",
-      "name": "Han Chuan",
-      "score": 5,
-      "testCasesPassed": 20,
-      "attempts": 1,
-      "bestScoreTimestamp": "2026-04-23T15:19:22.990+08:00",
-      "createdAt": "2026-04-23T13:34:40.019+08:00"
-    },
-    {
-      "id": "d1b17a97-1b3d-4cce-8b3a-853d234a19fc",
-      "type": "individual",
-      "name": "Arthur",
-      "score": 5.75,
-      "testCasesPassed": 23,
-      "attempts": 1,
-      "bestScoreTimestamp": "2026-04-23T16:02:48.082+08:00",
-      "createdAt": "2026-04-23T13:34:43.578+08:00"
-    },
-    {
-      "id": "254516af-f7f3-4cfd-8395-bb6ef26778b4",
+      "id": "67744f73-cde8-4514-b375-f16f1a098ade",
       "type": "individual",
       "name": "Ivan",
-      "score": 2.75,
-      "testCasesPassed": 11,
+      "score": 7,
+      "testCasesPassed": 7,
       "attempts": 1,
-      "bestScoreTimestamp": "2026-04-23T16:04:20.566+08:00",
-      "createdAt": "2026-04-23T13:34:48.984+08:00"
+      "bestScoreTimestamp": "2026-09-03T15:47:39.495+08:00",
+      "createdAt": "2026-09-03T13:41:32.922+08:00"
     },
     {
-      "id": "e4bd02ac-035a-46e6-a745-a06f4b5cc9d6",
+      "id": "90a5093c-2b78-4342-b824-d7268245e1f4",
       "type": "individual",
-      "name": "Jeslyn",
-      "score": 4.25,
-      "testCasesPassed": 17,
+      "name": "Lim Yee Min",
+      "score": 8,
+      "testCasesPassed": 8,
       "attempts": 1,
-      "bestScoreTimestamp": "2026-04-23T16:27:40.511+08:00",
-      "createdAt": "2026-04-23T13:35:00.042+08:00"
+      "bestScoreTimestamp": "2026-09-03T15:43:04.788+08:00",
+      "createdAt": "2026-09-03T13:42:10.138+08:00"
     },
     {
-      "id": "fa360cd2-323d-40a9-9acf-aac424c28623",
+      "id": "1a6fa85f-c13a-490f-9c6e-7b95b8a17c5f",
+      "type": "individual",
+      "name": "Khoo Yong Jian",
+      "score": 6,
+      "testCasesPassed": 6,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T15:43:31.936+08:00",
+      "createdAt": "2026-09-03T13:42:17.545+08:00"
+    },
+    {
+      "id": "24d5b7af-b8ad-47f9-bb1c-a0d1a398f8e8",
+      "type": "individual",
+      "name": "Tingyu",
+      "score": 8,
+      "testCasesPassed": 8,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T15:29:33.084+08:00",
+      "createdAt": "2026-09-03T13:42:23.137+08:00"
+    },
+    {
+      "id": "40976074-1b38-4f5a-b4ba-8cdb54ceeb3e",
+      "type": "individual",
+      "name": "Selfi",
+      "score": 8,
+      "testCasesPassed": 8,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T15:31:32.996+08:00",
+      "createdAt": "2026-09-03T13:42:25.201+08:00"
+    },
+    {
+      "id": "0ec8043c-f180-4032-b584-0a718ff9e014",
+      "type": "individual",
+      "name": "Tong Phuo Hong",
+      "score": 3,
+      "testCasesPassed": 3,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T16:34:39.599+08:00",
+      "createdAt": "2026-09-03T13:42:43.154+08:00"
+    },
+    {
+      "id": "cbc5d872-2155-4fd0-8ceb-87dd4aa47881",
+      "type": "individual",
+      "name": "Kaiven",
+      "score": 10,
+      "testCasesPassed": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T16:09:04.516+08:00",
+      "createdAt": "2026-09-03T13:42:58.807+08:00"
+    },
+    {
+      "id": "e7b4d022-b17a-4017-80b3-ed4c6a92341a",
+      "type": "individual",
+      "name": "Jun Xuan",
+      "score": 8,
+      "testCasesPassed": 8,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T15:28:12.380+08:00",
+      "createdAt": "2026-09-03T13:43:05.919+08:00"
+    },
+    {
+      "id": "2008b1c4-e394-49b0-9da2-e0a730e4a70e",
+      "type": "individual",
+      "name": "Matthew",
+      "score": 7,
+      "testCasesPassed": 7,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T15:29:11.497+08:00",
+      "createdAt": "2026-09-03T13:43:07.773+08:00"
+    },
+    {
+      "id": "e50278f2-50d6-46a5-af32-86aa56a8c7ae",
+      "type": "individual",
+      "name": "Thai Jinxian",
+      "score": 6,
+      "testCasesPassed": 6,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T15:32:11.086+08:00",
+      "createdAt": "2026-09-03T13:43:11.310+08:00"
+    },
+    {
+      "id": "f831736f-548f-4cee-900f-93a208177301",
+      "type": "individual",
+      "name": "Xavier",
+      "score": 8,
+      "testCasesPassed": 8,
+      "attempts": 2,
+      "bestScoreTimestamp": "2026-09-03T16:29:36.634+08:00",
+      "createdAt": "2026-09-03T13:43:13.780+08:00"
+    },
+    {
+      "id": "56a6d476-d3b6-467e-9b9e-3c8c60794eec",
+      "type": "individual",
+      "name": "Enya",
+      "score": 10,
+      "testCasesPassed": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T15:25:13.499+08:00",
+      "createdAt": "2026-09-03T13:43:15.093+08:00"
+    },
+    {
+      "id": "d8fb265a-5eff-442b-87f7-f21fbeb10084",
+      "type": "individual",
+      "name": "Zhi Xuen",
+      "score": 10,
+      "testCasesPassed": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T15:25:36.025+08:00",
+      "createdAt": "2026-09-03T13:43:30.043+08:00"
+    },
+    {
+      "id": "3e16b0a1-0584-4e13-8acd-c4a04931fcab",
+      "type": "individual",
+      "name": "Jo Yee",
+      "score": 10,
+      "testCasesPassed": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T15:25:26.093+08:00",
+      "createdAt": "2026-09-03T13:43:42.472+08:00"
+    },
+    {
+      "id": "1c4c05f6-38a7-4e6b-bdb0-b0ac6ec422c0",
+      "type": "individual",
+      "name": "Lim Jing Hao",
+      "score": 2,
+      "testCasesPassed": 2,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T16:45:59.076+08:00",
+      "createdAt": "2026-09-03T13:43:46.844+08:00"
+    },
+    {
+      "id": "e06de94f-2fb3-4260-a7fb-dd57c1d5b90e",
+      "type": "individual",
+      "name": "Zhi Han",
+      "score": 4,
+      "testCasesPassed": 4,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T16:45:43.671+08:00",
+      "createdAt": "2026-09-03T13:43:52.099+08:00"
+    },
+    {
+      "id": "fe6daf56-95a8-47c5-ab88-90287c8c07b4",
+      "type": "individual",
+      "name": "An Thye",
+      "score": 3,
+      "testCasesPassed": 3,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T15:47:49.112+08:00",
+      "createdAt": "2026-09-03T13:43:57.463+08:00"
+    },
+    {
+      "id": "25a4cb55-6d21-43cb-af66-55e509be38f8",
+      "type": "individual",
+      "name": "Nigel",
+      "score": 8,
+      "testCasesPassed": 8,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T15:31:23.164+08:00",
+      "createdAt": "2026-09-03T13:44:03.867+08:00"
+    },
+    {
+      "id": "12f6f4f4-d5d5-4633-bed3-a79316c13524",
+      "type": "individual",
+      "name": "Teoh Yue Ze",
+      "score": 7,
+      "testCasesPassed": 7,
+      "attempts": 2,
+      "bestScoreTimestamp": "2026-09-03T15:52:22.255+08:00",
+      "createdAt": "2026-09-03T13:44:05.001+08:00"
+    },
+    {
+      "id": "a603cba0-5688-4f00-8fae-68d1656add6c",
+      "type": "individual",
+      "name": "Jun Xi",
+      "score": 4,
+      "testCasesPassed": 4,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T15:43:50.768+08:00",
+      "createdAt": "2026-09-03T13:45:00.214+08:00"
+    },
+    {
+      "id": "6fb823f2-bb09-4998-be7e-936ca92590a8",
+      "type": "individual",
+      "name": "Esther",
+      "score": 10,
+      "testCasesPassed": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T15:44:04.761+08:00",
+      "createdAt": "2026-09-03T13:45:09.929+08:00"
+    },
+    {
+      "id": "b97993f8-070a-44de-8d6d-7831e48060d3",
+      "type": "individual",
+      "name": "Ming Zhi",
+      "score": 10,
+      "testCasesPassed": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T14:39:35.127+08:00",
+      "createdAt": "2026-09-03T13:47:21.170+08:00"
+    },
+    {
+      "id": "3cc83466-6715-4a28-9632-7bfd37368a0d",
+      "type": "individual",
+      "name": "Alicia",
+      "score": 10,
+      "testCasesPassed": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T14:58:23.806+08:00",
+      "createdAt": "2026-09-03T13:47:23.812+08:00"
+    },
+    {
+      "id": "28330654-af57-412f-b1c6-9b533f4ebaf3",
+      "type": "individual",
+      "name": "Arthur",
+      "score": 10,
+      "testCasesPassed": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T15:17:36.475+08:00",
+      "createdAt": "2026-09-03T14:36:32.167+08:00"
+    },
+    {
+      "id": "956597dd-6dbe-41cb-b884-570a19489f35",
+      "type": "individual",
+      "name": "Han Chuan",
+      "score": 10,
+      "testCasesPassed": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T15:22:19.915+08:00",
+      "createdAt": "2026-09-03T14:37:26.641+08:00"
+    },
+    {
+      "id": "85036f59-72c1-4f26-8c1a-d2e8587f26ea",
+      "type": "individual",
+      "name": "Ze Yu",
+      "score": 9,
+      "testCasesPassed": 9,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T15:28:35.602+08:00",
+      "createdAt": "2026-09-03T14:37:28.741+08:00"
+    },
+    {
+      "id": "20b63194-d188-48e0-8bf8-576daa99f784",
       "type": "individual",
       "name": "Sky",
-      "score": 2.75,
-      "testCasesPassed": 11,
-      "attempts": 1,
-      "bestScoreTimestamp": "2026-04-23T16:03:30.851+08:00",
-      "createdAt": "2026-04-23T13:35:15.515+08:00"
+      "score": null,
+      "testCasesPassed": null,
+      "attempts": 0,
+      "bestScoreTimestamp": null,
+      "createdAt": "2026-09-03T14:37:44.517+08:00"
     },
     {
-      "id": "cb17614e-0177-4358-809b-863aceb88b32",
+      "id": "9928a743-8706-41a1-9213-d865b0432a64",
       "type": "individual",
-      "name": "Ian",
-      "score": 5.25,
-      "testCasesPassed": 21,
+      "name": "Jacky",
+      "score": 10,
+      "testCasesPassed": 10,
       "attempts": 1,
-      "bestScoreTimestamp": "2026-04-23T15:19:12.607+08:00",
-      "createdAt": "2026-04-23T13:35:18.200+08:00"
+      "bestScoreTimestamp": "2026-09-03T15:19:07.356+08:00",
+      "createdAt": "2026-09-03T15:18:52.888+08:00"
     },
     {
-      "id": "11e4d295-0adb-4c7e-a9bf-49efc339813e",
+      "id": "b3a267c6-a31a-4518-b8cf-9332c4055e9a",
       "type": "individual",
       "name": "Yi Sheng",
-      "score": 5.25,
-      "testCasesPassed": 21,
+      "score": 5,
+      "testCasesPassed": 5,
       "attempts": 1,
-      "bestScoreTimestamp": "2026-04-23T15:17:23.783+08:00",
-      "createdAt": "2026-04-23T13:35:48.361+08:00"
+      "bestScoreTimestamp": "2026-09-03T15:19:26.554+08:00",
+      "createdAt": "2026-09-03T15:19:19.766+08:00"
     },
     {
-      "id": "c2731932-e717-4104-8eb2-96c961695919",
+      "id": "efca99fd-21a7-458f-b25c-5034311aac2b",
+      "type": "individual",
+      "name": "Wen Yao",
+      "score": 10,
+      "testCasesPassed": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T15:19:45.106+08:00",
+      "createdAt": "2026-09-03T15:19:35.426+08:00"
+    },
+    {
+      "id": "51c12f37-77e7-4671-9eb4-7711a4da713e",
+      "type": "individual",
+      "name": "Ramdzuanny",
+      "score": 4,
+      "testCasesPassed": 4,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T15:30:01.958+08:00",
+      "createdAt": "2026-09-03T15:29:52.350+08:00"
+    },
+    {
+      "id": "b43c3f67-67c2-49b5-a5c6-a6dd95512c97",
       "type": "individual",
       "name": "Hang Jie",
-      "score": 5,
-      "testCasesPassed": 20,
+      "score": 10,
+      "testCasesPassed": 10,
       "attempts": 1,
-      "bestScoreTimestamp": "2026-04-23T16:23:08.605+08:00",
-      "createdAt": "2026-04-23T13:39:27.993+08:00"
+      "bestScoreTimestamp": "2026-09-03T15:55:17.495+08:00",
+      "createdAt": "2026-09-03T15:32:20.097+08:00"
     },
     {
-      "id": "b0957384-d3f4-4ef8-9e7d-6b134b809fb8",
+      "id": "61c6e378-82f7-4a66-9182-c97c7a6942ae",
       "type": "individual",
-      "name": "Seong Jun",
-      "score": 8.25,
-      "testCasesPassed": 33,
+      "name": "Ping Jin",
+      "score": 10,
+      "testCasesPassed": 10,
       "attempts": 1,
-      "bestScoreTimestamp": "2026-04-23T15:54:51.544+08:00",
-      "createdAt": "2026-04-23T13:39:37.488+08:00"
+      "bestScoreTimestamp": "2026-09-03T15:35:12.678+08:00",
+      "createdAt": "2026-09-03T15:35:07.656+08:00"
     },
     {
-      "id": "1001771b-5115-4678-a3f7-25c209c0911b",
+      "id": "e1535c49-2ca5-4ee2-9101-515c91c6d9a4",
+      "type": "individual",
+      "name": "Jeslyn",
+      "score": 10,
+      "testCasesPassed": 10,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T15:47:53.567+08:00",
+      "createdAt": "2026-09-03T15:47:36.923+08:00"
+    },
+    {
+      "id": "c2926433-307a-49dd-adb7-22f04dd51d33",
       "type": "individual",
       "name": "Kang Jie",
       "score": 10,
-      "testCasesPassed": 40,
+      "testCasesPassed": 10,
       "attempts": 1,
-      "bestScoreTimestamp": "2026-04-23T16:01:53.331+08:00",
-      "createdAt": "2026-04-23T16:01:48.186+08:00"
+      "bestScoreTimestamp": "2026-09-03T15:54:59.535+08:00",
+      "createdAt": "2026-09-03T15:54:54.432+08:00"
     },
     {
-      "id": "1f721265-9f7f-4315-9c66-493ccb0f4c22",
+      "id": "bf5fb279-635d-45aa-be7d-aa1fc4ee096c",
       "type": "individual",
       "name": "Nicholas",
-      "score": 8,
-      "testCasesPassed": 32,
+      "score": 5,
+      "testCasesPassed": 5,
       "attempts": 1,
-      "bestScoreTimestamp": "2026-04-23T16:03:20.583+08:00",
-      "createdAt": "2026-04-23T16:03:16.200+08:00"
+      "bestScoreTimestamp": "2026-09-03T16:33:27.361+08:00",
+      "createdAt": "2026-09-03T16:33:06.831+08:00"
     },
     {
-      "id": "0523e35b-a8b4-413e-97e5-ccfdce99b9a4",
-      "type": "individual",
-      "name": "Alex",
-      "score": 10,
-      "testCasesPassed": 40,
-      "attempts": 1,
-      "bestScoreTimestamp": "2026-04-23T16:10:53.837+08:00",
-      "createdAt": "2026-04-23T16:10:47.688+08:00"
-    },
-    {
-      "id": "c4249c23-90ed-4bfa-8de6-1f023245fb9d",
-      "type": "individual",
-      "name": "Ze Yu",
-      "score": 8,
-      "testCasesPassed": 32,
-      "attempts": 1,
-      "bestScoreTimestamp": "2026-04-23T16:22:54.910+08:00",
-      "createdAt": "2026-04-23T16:22:48.418+08:00"
-    },
-    {
-      "id": "990a5635-26d1-42b7-8d81-b434c58faa1b",
-      "type": "individual",
-      "name": "Jeremy",
-      "score": 9.25,
-      "testCasesPassed": 37,
-      "attempts": 1,
-      "bestScoreTimestamp": "2026-04-23T16:30:01.703+08:00",
-      "createdAt": "2026-04-23T16:29:43.598+08:00"
-    },
-    {
-      "id": "6e608cfe-04cd-461f-960a-90aafae21a56",
-      "type": "individual",
-      "name": "Orient",
-      "score": 2.75,
-      "testCasesPassed": 11,
-      "attempts": 1,
-      "bestScoreTimestamp": "2026-04-23T17:27:52.348+08:00",
-      "createdAt": "2026-04-23T17:27:42.455+08:00"
-    },
-    {
-      "id": "1964e781-6c1f-456c-bd5b-3b0b3919e37b",
+      "id": "a5be95d1-9fae-469b-a543-8053805808ba",
       "type": "individual",
       "name": "Joash",
-      "score": 2.75,
-      "testCasesPassed": 11,
+      "score": 1,
+      "testCasesPassed": 1,
       "attempts": 1,
-      "bestScoreTimestamp": "2026-04-23T17:30:12.682+08:00",
-      "createdAt": "2026-04-23T17:29:58.265+08:00"
+      "bestScoreTimestamp": "2026-09-03T17:30:43.503+08:00",
+      "createdAt": "2026-09-03T17:30:37.824+08:00"
     }
   ],
   "groups": [
     {
-      "id": "b0951968-56ca-40f3-afae-582415b3572b",
+      "id": "d9ab36a7-75bb-42a2-a6e6-ac02317244e0",
       "type": "group",
-      "name": "monster",
+      "name": "Super Monkeys",
       "members": [
-        "kang jie",
-        "Shen Yang",
-        "Alvin"
+        "Arthur",
+        "Kang Jie",
+        "Shen Yang"
       ],
-      "score": 13,
-      "testCasesPassed": 13,
+      "score": 15,
+      "testCasesPassed": 40,
       "attempts": 1,
-      "bestScoreTimestamp": "2026-04-23T15:01:07.209+08:00",
-      "createdAt": "2026-04-23T13:36:34.100+08:00"
+      "bestScoreTimestamp": "2026-09-03T14:36:22.787+08:00",
+      "createdAt": "2026-09-03T13:33:06.733+08:00"
     },
     {
-      "id": "7f884a51-588c-4ad3-9b50-547fc754f293",
+      "id": "0130b949-9244-47f4-815b-da318f7a8f95",
       "type": "group",
-      "name": "NPC",
+      "name": "Chef Sky",
       "members": [
-        "Peter",
-        "Joash",
-        "Orient"
-      ],
-      "score": 11,
-      "testCasesPassed": 11,
-      "attempts": 1,
-      "bestScoreTimestamp": "2026-04-23T14:52:07.974+08:00",
-      "createdAt": "2026-04-23T13:38:47.923+08:00"
-    },
-    {
-      "id": "ad93162c-ade7-4e28-8513-299dfc6a048b",
-      "type": "group",
-      "name": "Alicia",
-      "members": [
-        "Wen Yao",
-        "Nicholas",
-        "Ze Yu"
-      ],
-      "score": null,
-      "testCasesPassed": null,
-      "attempts": 0,
-      "bestScoreTimestamp": null,
-      "createdAt": "2026-04-23T15:02:34.866+08:00"
-    },
-    {
-      "id": "a2abb13e-af8b-4bc7-80d7-61fe9edb7c4c",
-      "type": "group",
-      "name": "Victim",
-      "members": [
-        "Ian",
-        "Alex",
+        "Han Chuan",
+        "Sky",
         "Hang Jie"
       ],
+      "score": 15,
+      "testCasesPassed": 40,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T14:36:49.829+08:00",
+      "createdAt": "2026-09-03T13:44:07.597+08:00"
+    },
+    {
+      "id": "38b90be4-b381-4c55-9909-5ad9fa8cb915",
+      "type": "group",
+      "name": "Hi",
+      "members": [
+        "Esther",
+        "Jeslyn",
+        "Ping Jin"
+      ],
+      "score": 15,
+      "testCasesPassed": 40,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T15:39:50.353+08:00",
+      "createdAt": "2026-09-03T13:44:54.091+08:00"
+    },
+    {
+      "id": "955ea125-821a-4716-b5c1-a4d30173e464",
+      "type": "group",
+      "name": "WoBuZhiDao",
+      "members": [
+        "Shakthy",
+        "Phin Cheng",
+        "Shi Min"
+      ],
+      "score": 12,
+      "testCasesPassed": 32,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T15:23:50.336+08:00",
+      "createdAt": "2026-09-03T13:45:18.994+08:00"
+    },
+    {
+      "id": "95b466e6-7a7f-42ac-a45d-2bd4c11a866f",
+      "type": "group",
+      "name": "Hello",
+      "members": [
+        "Enya",
+        "Yi Sheng",
+        "Ze Yu"
+      ],
+      "score": 11.625,
+      "testCasesPassed": 31,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T14:40:17.771+08:00",
+      "createdAt": "2026-09-03T13:50:43.770+08:00"
+    },
+    {
+      "id": "2ff81037-2d17-41a2-9683-e7ef639d29b5",
+      "type": "group",
+      "name": "Alvin and the chipmunks",
+      "members": [
+        "Alvin",
+        "Zhi Xuen",
+        "Jo Yee"
+      ],
       "score": null,
       "testCasesPassed": null,
       "attempts": 0,
       "bestScoreTimestamp": null,
-      "createdAt": "2026-04-23T17:18:17.751+08:00"
+      "createdAt": "2026-09-03T14:13:40.013+08:00"
+    },
+    {
+      "id": "914f8293-cff3-4043-9558-4a66299c09fc",
+      "type": "group",
+      "name": "JackYao",
+      "members": [
+        "Jacky",
+        "Wen Yao",
+        "KaiVen"
+      ],
+      "score": 13.5,
+      "testCasesPassed": 36,
+      "attempts": 2,
+      "bestScoreTimestamp": "2026-09-03T15:37:53.392+08:00",
+      "createdAt": "2026-09-03T14:18:11.518+08:00"
+    },
+    {
+      "id": "faa2c23a-0305-4a15-adc4-2b6ceb970c22",
+      "type": "group",
+      "name": "随便放一个",
+      "members": [
+        "Alicia",
+        "Ming Zhi"
+      ],
+      "score": 15,
+      "testCasesPassed": 40,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T16:21:25.626+08:00",
+      "createdAt": "2026-09-03T16:21:10.149+08:00"
+    },
+    {
+      "id": "5b40a892-e882-4d27-a49d-7f295755972b",
+      "type": "group",
+      "name": "TVK",
+      "members": [
+        "Orient",
+        "Peter",
+        "Joash"
+      ],
+      "score": 13.5,
+      "testCasesPassed": 36,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T17:30:29.744+08:00",
+      "createdAt": "2026-09-03T16:56:00.840+08:00"
+    },
+    {
+      "id": "2e471b3f-f1e1-4d62-9a85-d6cbbef44a3d",
+      "type": "group",
+      "name": "Selfie",
+      "members": [
+        "Selfi",
+        "Ramdzuanny"
+      ],
+      "score": 4.875,
+      "testCasesPassed": 13,
+      "attempts": 1,
+      "bestScoreTimestamp": "2026-09-03T17:31:25.881+08:00",
+      "createdAt": "2026-09-03T17:04:56.463+08:00"
     }
   ],
   "timer": {
-    "endTime": "2026-04-23T17:30:00.000+08:00",
+    "endTime": "2026-09-03T17:30:00.000+08:00",
     "isRunning": true
   }
 }
